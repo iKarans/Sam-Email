@@ -1,0 +1,11 @@
+@use "../../styles/variables" as *;
+@import "../../styles/typegraphy";
+@import "../../styles/resets";
+
+.side-nav {
+    padding: 10% 5%;
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    grid-gap: 10px;
+    border-right: 2px solid $secondary-section-dividers;
+}

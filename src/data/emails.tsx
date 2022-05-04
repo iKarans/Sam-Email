@@ -1,0 +1,61 @@
+import { IEmail } from "../modals/modals";
+
+export const emails : IEmail[] = [
+    {
+        id: 1,
+        name: "karan Sivalingam",
+        emailAddress: "karan1@gmail.com",
+        title: "Can you take a look at the recent project proposals?",
+        emailContent: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut cum, fuga quis sint optio sequi dolorem placeat. Aperiam, laboriosam totam qui unde corrupti in sint quod. Id quidem minus cupiditate expedita, dolor iusto quod magnam, cum et beatae obcaecati. Saepe iusto, dolore maiores beatae itaque deleniti aperiam laudantium eum pariatur!",
+        date: new Date(2022, 2, 4),
+        type: "Personal",
+        isRead: false,
+        isDeleted: false,
+    },
+    {
+        id: 2,
+        name: "karan liiiiiiii",
+        emailAddress: "karan2@gmail.com",
+        title: "Can you take a look at the recent project proposals? 2" ,
+        emailContent: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quidem sunt ipsa numquam, eum maxime earum eaque nulla, labore blanditiis eius odio veritatis? Excepturi, incidunt. Impedit non error necessitatibus, laborum omnis voluptatem itaque esse, et, quisquam nemo architecto sequi. Adipisci tempora animi neque laudantium ab assumenda corporis reprehenderit magni omnis laborum! Perferendis praesentium dicta consequuntur. Maiores accusantium harum placeat nesciunt, facere suscipit aspernatur blanditiis id consectetur illo, dolor, reiciendis vitae adipisci omnis accusamus quis voluptas.",
+        date: new Date(2022, 2, 2),
+        type: "Personal",
+        isRead: false,
+        isDeleted: false,
+    },
+    {
+        id: 3,
+        name: "karan miiiiii",
+        emailAddress: "karan3@gmail.com",
+        title: "Fucking hate Csss",
+        emailContent: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nesciunt laudantium voluptatem dignissimos, qui assumenda velit magnam temporibus quaerat corporis? Amet in voluptatibus corporis, vel eum quasi perferendis nulla impedit veniam veritatis ad iusto. Inventore fuga tempora necessitatibus quo beatae aliquid ad doloremque accusamus veniam, ipsa perspiciatis numquam laboriosam tenetur ullam voluptatibus eos. Dolorum maxime corporis quaerat architecto cupiditate, iste, earum temporibus nulla excepturi ab eaque alias consequatur! Excepturi.",
+        date: new Date(2022, 2, 3),
+        type: "Work",
+        isRead: false,
+        isDeleted: false,
+    },
+    {
+        id: 4,
+        name: "karan isaking",
+        emailAddress: "karan4@gmail.com",
+        title: "Fucking hate css 2",
+        emailContent: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis adipisci nesciunt voluptatum voluptate doloribus minima possimus vel aperiam. Nobis, molestiae cum hic repellendus voluptate possimus. Iste a, laboriosam quidem nostrum eaque suscipit veritatis corporis deserunt id, distinctio expedita sequi provident placeat illo saepe animi omnis, deleniti adipisci dolorum architecto labore eveniet hic. Impedit facilis, id quae excepturi ad necessitatibus? Qui non alias quam voluptas ratione, doloremque aspernatur natus totam corporis illum, atque cumque possimus? Illum sit, totam qui sequi vel eum ab fuga sapiente similique necessitatibus, nihil consequatur.",
+        date: new Date(2022, 2, 28),
+        type: "Personal",
+        isRead: false,
+        isDeleted: false,
+    },
+    {
+        id: 5,
+        name: "karan hatescss",
+        emailAddress: "karan5@gmail.com",
+        title: "Fucking hate css 69",
+        emailContent: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint similique ad ab aspernatur alias minus modi consequuntur itaque atque. At cupiditate consectetur, dolor labore mollitia laudantium saepe architecto ullam voluptatibus excepturi sequi, distinctio, temporibus debitis molestiae? Iure alias non, vitae eaque minus ea magnam libero consequuntur sunt. Ipsa vel corporis odit, doloribus quibusdam eaque perspiciatis maiores repellendus eligendi explicabo corrupti, sint ex quo exercitationem. Nemo odit, obcaecati provident laborum dignissimos blanditiis, accusantium explicabo aliquid voluptas esse deleniti aspernatur?",
+        date: new Date(2022, 2, 17),
+        type: "Work",
+        isRead: false,
+        isDeleted: false,
+    },
+]
+
+export default emails;

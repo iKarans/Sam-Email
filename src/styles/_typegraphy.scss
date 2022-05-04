@@ -1,0 +1,55 @@
+@use "./variables" as *;
+
+a {
+    text-decoration: none;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: .8rem;
+    font-weight: 400;
+    color: $primary-grey;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 160%;
+    color: $primary-grey;
+}
+
+label {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.bold-h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: $primary-turquoise;
+    padding: 0.625rem 0;
+}
+
+.small-paragraph {
+    font-size: .8rem;
+    font-weight: 400;
+    letter-spacing: 160%;
+}

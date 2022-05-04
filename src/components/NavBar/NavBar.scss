@@ -1,0 +1,22 @@
+@use "../../styles/variables" as *;
+@import "../../styles/typegraphy";
+@import "../../styles/resets";
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22.04px 45.38px;
+    border-bottom: 2px solid $secondary-section-dividers;
+    &__logo {
+        height: 32.15px;
+    }
+    &__avatar {
+        vertical-align: middle;
+        height: 42px;
+        width: 42px;
+        object-fit: contain;
+        border-radius: 50%;
+    }
+
+}

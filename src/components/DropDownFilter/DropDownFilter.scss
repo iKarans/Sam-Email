@@ -1,0 +1,28 @@
+@use "../../styles/variables" as *;
+@import "../../styles/typegraphy";
+@import "../../styles/resets";
+
+.drop-down-filter {
+    height: 35px;
+    width: 98px;
+    border: 2px solid rgba(87, 197, 197, 0.17);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    &__title {
+        font-weight: 400;
+        font-size: 12px;
+    }
+    &__list {
+        position: absolute;
+        height: 330px;
+        width: 160px;
+        bottom: -330px;
+        background-color: white;
+        display: grid;
+        grid-template-rows: auto auto 1fr;
+        row-gap: 1rem;
+    }
+}

@@ -1,0 +1,12 @@
+@use "../../styles/variables" as *;
+@import "../../styles/typegraphy";
+@import "../../styles/resets";
+
+.drop-down-filter-option {
+    &__filters-container {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+}

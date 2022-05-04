@@ -1,0 +1,38 @@
+@use "../../styles/variables" as *;
+@import "../../styles/typegraphy";
+@import "../../styles/resets";
+.mini-email {
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    align-items: center;
+    column-gap: 15px;
+    row-gap: 10px;
+    justify-content: center;
+    align-content: center;
+    padding: 2.5% 5%;
+    border-bottom: 2px solid $secondary-section-dividers;
+    background-color: $secondary-inactive-inbox;
+    &__active {
+        background-color: white;
+    }
+    &__avatar {
+        vertical-align: middle;
+        height: 42px;
+        width: 42px;
+        object-fit: contain;
+        border-radius: 50%;
+        grid-row: 1 / 3;
+        padding: 5%;
+        align-self: start;
+    }
+    &__title {
+        grid-column: 2 / 4;
+        grid-row: 2 / 3;
+    }
+    &__date {
+        justify-self: end;
+    }
+    &__snippet {
+        grid-column: 2 / 4;
+    }
+}
